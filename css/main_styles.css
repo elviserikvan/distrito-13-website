@@ -1,0 +1,19 @@
+/*
+* Main stylesheet
+* Author: Gamertod
+* Author Web page: http://gamertod.tk/
+*/
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400");
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 300;
+  font-family: "Nunito", "Nunito Sans", sans-serif;
+  background-color: #f8f9fa;
+}

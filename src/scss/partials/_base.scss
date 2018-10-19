@@ -1,0 +1,17 @@
+
+//  ----------------------------------------------------------------- //
+// This file sets some global variables and includes all the modules  //
+//  ----------------------------------------------------------------- //
+
+
+// Fonts weights
+$thin: 300;
+$bold: 800;
+$normal: 400;
+
+
+// Fonts families
+$regular_font: 'Nunito','Nunito Sans', sans-serif;
+
+// Includes all the modules
+@import '../modules/all';

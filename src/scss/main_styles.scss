@@ -1,0 +1,25 @@
+/*
+* Main stylesheet
+* Author: Gamertod
+* Author Web page: http://gamertod.tk/
+*/
+
+// Import the base partial
+@import 'partials/base';
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+	font: {
+		weight: $thin;
+		family: $regular_font; 
+	}
+	background-color: $light_grey;
+}
