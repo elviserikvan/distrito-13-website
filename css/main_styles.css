@@ -1,9 +1,17 @@
+@charset "UTF-8";
 /*
 * Main stylesheet
 * Author: Gamertod
 * Author Web page: http://gamertod.tk/
 */
-@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,400");
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,399");
+@font-face {
+  font-family: "Font Awesome icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../webfonts/fa-regular-400.eot");
+  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
 *,
 *:before,
 *:after {
@@ -125,11 +133,31 @@ body main .connect .content {
   text-align: center;
 }
 body main .connect .content .connect_command {
-  color: #6c757d;
+  display: flex;
   margin-top: 2em;
+  justify-content: center;
+}
+body main .connect .content .connect_command p {
+  color: #6c757d;
   padding: 0.5em 1em;
   font-weight: 400;
   display: inline-block;
-  background-color: #FFFFFF;
   border: 2px solid #d6d6d6;
+}
+body main .connect .content .connect_command p.copy_icon {
+  height: 100%;
+  cursor: pointer;
+  border-left: none;
+  background-color: white;
+}
+body main .connect .content .connect_command .copy_icon:after {
+  content: "";
+  font-family: "Font Awesome icons";
+}
+body footer {
+  width: 100%;
+  padding: 2em;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #343a40;
 }

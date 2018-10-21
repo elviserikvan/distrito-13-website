@@ -8,4 +8,18 @@
 // @import url('https://fonts.googleapis.com/css?family=Nunito:200,400,900');
 // @import url('https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans');
 // @import url('https://fonts.googleapis.com/css?family=Nunito:300,400');
-@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,399');
+
+
+// Here I included the webfonts from the fontawesome files to include them in my projects by my own
+@font-face {
+  font-family: 'Font Awesome icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$webfonts_dir}/fa-regular-400.eot');
+  src: url('#{$webfonts_dir}/fa-regular-400.eot?#iefix') format('embedded-opentype'),
+  url('#{$webfonts_dir}/fa-regular-400.woff2') format('woff2'),
+  url('#{$webfonts_dir}/fa-regular-400.woff') format('woff'),
+  url('#{$webfonts_dir}/fa-regular-400.ttf') format('truetype'),
+  url('#{$webfonts_dir}/fa-regular-400.svg#fontawesome') format('svg');
+}
