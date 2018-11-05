@@ -9,19 +9,7 @@
 </head>
 <body>
     <header>    
-        <nav>
-            <div class="nav_content">            
-                <div class="logo">
-                    <a href="#">DISTRITO 13</a>
-                </div>
-
-                <div class="links">
-                    <a href="webchat.html">WebChat</a>
-                    <a href="https://ghostbin.com/paste/d2nb7/raw">Rules</a>
-                    <a href="#">Link #3</a>
-                </div>
-            </div>
-        </nav>
+        <?php include INC_DIR . 'nav.php'; ?>
 
         <div class="header_content">        
             <div class="content">            
@@ -69,8 +57,7 @@
             </div>
         </div>
     </main>
-    <footer>
-        <p>Distrito 13 &copy; copyright 2018 - 2018</p>
-    </footer>
-</body>
+
+    <?php include INC_DIR . 'footer.php' ?>
+    </body>
 </html>
