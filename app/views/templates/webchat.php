@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <title>Distro 13 - WebChat</title>
@@ -56,7 +56,6 @@
 
            // Hide the modal
            wrap_close_btn.addEventListener('click', e => {
-                // console.log('Hello World');
                 // Hide the modal
                 modal_wrap.classList.remove('show_modal');
                 modal_wrap.classList.add('hide_modal');

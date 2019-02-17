@@ -1,8 +1,26 @@
 @import 'partials/base';
 
+html, body {height: 100vh !important;}
+main {height: 100% !important;}
+
 body {
 	header {
 		@import 'partials/nav';
+	}
+
+
+	main {
+		padding: 2em;
+
+		h2 {
+			text-align: center
+		}
+
+		.rules {
+			width: 90%;
+			margin: auto;
+			max-width: 1000px;
+		}
 	}
 
 	@import 'partials/footer';

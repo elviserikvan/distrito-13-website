@@ -24,6 +24,14 @@ h2 {
   font-size: 1.7em;
 }
 
+html, body {
+  height: 100vh !important;
+}
+
+main {
+  height: 100% !important;
+}
+
 body header nav {
   width: 100%;
   background-color: #343a40;
@@ -67,6 +75,17 @@ body header nav .nav_content .links a {
 }
 body header nav .nav_content .links a:hover {
   color: #d6d6d6;
+}
+body main {
+  padding: 2em;
+}
+body main h2 {
+  text-align: center;
+}
+body main .rules {
+  width: 90%;
+  margin: auto;
+  max-width: 1000px;
 }
 body footer {
   width: 100%;
