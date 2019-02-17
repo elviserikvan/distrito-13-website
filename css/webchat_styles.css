@@ -1,0 +1,161 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,399");
+@font-face {
+  font-family: "Font Awesome icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../webfonts/fa-regular-400.eot");
+  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+h2 {
+  margin: 0.5em 0px;
+  font-size: 1.7em;
+}
+
+html {
+  height: 100%;
+}
+html body {
+  height: 90%;
+}
+html body header nav {
+  width: 100%;
+  background-color: #343a40;
+}
+html body header nav .nav_content {
+  width: 80%;
+  display: flex;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+html body header nav .nav_content .logo a,
+html body header nav .nav_content .links a {
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+}
+html body header nav .nav_content .logo a {
+  font-weight: 800;
+  font-family: "Roboto";
+}
+html body header nav .nav_content .links a {
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+  transition-property: color;
+  transition-timing-function: ease-out;
+  -o-transition-delay: 0.1s;
+  -o-transition-duration: 0.2s;
+  -o-transition-property: color;
+  -o-transition-timing-function: ease-out;
+  -moz-transition-delay: 0.1s;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-property: color;
+  -moz-transition-timing-function: ease-out;
+  -webkit-transition-delay: 0.1s;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-property: color;
+  -webkit-transition-timing-function: ease-out;
+}
+html body header nav .nav_content .links a:hover {
+  color: #d6d6d6;
+}
+html body main {
+  height: 97%;
+}
+html body footer {
+  width: 100%;
+  padding: 2em;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #343a40;
+}
+html body .btn_modal {
+  top: 40%;
+  left: -15px;
+  width: 200px;
+  padding: 20px;
+  cursor: pointer;
+  position: fixed;
+  text-align: right;
+  border-radius: 7px;
+  background-color: #8ab746;
+}
+html body .btn_modal:hover {
+  left: -7px;
+}
+html body .modal_wrap {
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition-delay: 0.1s;
+  transition-duration: 0.5s;
+  transition-property: left;
+  transition-timing-function: ease-out;
+  -o-transition-delay: 0.1s;
+  -o-transition-duration: 0.5s;
+  -o-transition-property: left;
+  -o-transition-timing-function: ease-out;
+  -moz-transition-delay: 0.1s;
+  -moz-transition-duration: 0.5s;
+  -moz-transition-property: left;
+  -moz-transition-timing-function: ease-out;
+  -webkit-transition-delay: 0.1s;
+  -webkit-transition-duration: 0.5s;
+  -webkit-transition-property: left;
+  -webkit-transition-timing-function: ease-out;
+}
+html body .modal_wrap .close_icon {
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  font-size: 20pt;
+  position: absolute;
+}
+html body .modal_wrap .close_icon:before {
+  color: #FFFFFF;
+  content: "";
+  font-family: "Font Awesome icons";
+}
+html body .modal_wrap .instructions-wrap {
+  width: 90%;
+  margin: auto;
+  color: #FFFFFF;
+  display: block;
+  margin-top: 2.5em;
+  max-width: 1000px;
+  font-weight: 800;
+}
+html body .modal_wrap .instructions-wrap h2 {
+  text-align: center;
+  font-size: 25pt;
+  font-weight: 800;
+}
+html body .modal_wrap .instructions-wrap p {
+  font-weight: 800;
+  font-size: 15pt;
+  margin: 1em 0px;
+}
+html body .hide_modal {
+  left: -100%;
+}
+html body .show_modal {
+  left: 0px;
+}

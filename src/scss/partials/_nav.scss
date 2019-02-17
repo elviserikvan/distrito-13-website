@@ -1,0 +1,35 @@
+nav {
+	width: 100%;
+	background-color: $smooth_black;
+
+	.nav_content {
+		width: 80%;
+		display: flex;
+		margin: 0px auto;
+		align-items: center;
+		justify-content: space-between;
+
+		.logo a,
+		.links a {
+			color: $white;
+			padding: 10px 20px;
+			font-weight: $normal;
+			display: inline-block;
+			text-decoration: none;
+
+		}
+
+		.logo a {
+			font-weight: $bold;
+			font-family: 'Roboto';
+		}
+
+		.links a {
+			@include transition(color, 0.2s, 0.1s, ease-out);
+
+			&:hover {
+				color: $darker_grey;
+			}
+		}
+	}
+}

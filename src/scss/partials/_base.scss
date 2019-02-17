@@ -15,3 +15,25 @@ $regular_font: 'Nunito', sans-serif;;
 
 // Includes all the modules
 @import '../modules/all';
+
+// General Styles
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+	font: {
+		weight: $normal; 
+		family: $regular_font;
+	}
+}
+
+h2 {
+	margin: 0.5em 0px;
+	font-size: 1.7em;
+}

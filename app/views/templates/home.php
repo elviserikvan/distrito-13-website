@@ -5,7 +5,7 @@
     <title>Distro 13 - Un canal IRC</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/main_styles.css">
+    <link rel="stylesheet" href="css/home_styles.css">
 </head>
 <body>
     <header>    

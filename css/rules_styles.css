@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,399");
+@font-face {
+  font-family: "Font Awesome icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../webfonts/fa-regular-400.eot");
+  src: url("../webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-regular-400.woff2") format("woff2"), url("../webfonts/fa-regular-400.woff") format("woff"), url("../webfonts/fa-regular-400.ttf") format("truetype"), url("../webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+  font-weight: 400;
+  font-family: "Nunito", sans-serif;
+}
+
+h2 {
+  margin: 0.5em 0px;
+  font-size: 1.7em;
+}
+
+body header nav {
+  width: 100%;
+  background-color: #343a40;
+}
+body header nav .nav_content {
+  width: 80%;
+  display: flex;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+body header nav .nav_content .logo a,
+body header nav .nav_content .links a {
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-weight: 400;
+  display: inline-block;
+  text-decoration: none;
+}
+body header nav .nav_content .logo a {
+  font-weight: 800;
+  font-family: "Roboto";
+}
+body header nav .nav_content .links a {
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+  transition-property: color;
+  transition-timing-function: ease-out;
+  -o-transition-delay: 0.1s;
+  -o-transition-duration: 0.2s;
+  -o-transition-property: color;
+  -o-transition-timing-function: ease-out;
+  -moz-transition-delay: 0.1s;
+  -moz-transition-duration: 0.2s;
+  -moz-transition-property: color;
+  -moz-transition-timing-function: ease-out;
+  -webkit-transition-delay: 0.1s;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-property: color;
+  -webkit-transition-timing-function: ease-out;
+}
+body header nav .nav_content .links a:hover {
+  color: #d6d6d6;
+}
+body footer {
+  width: 100%;
+  padding: 2em;
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #343a40;
+}

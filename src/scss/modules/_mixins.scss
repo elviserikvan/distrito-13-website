@@ -4,10 +4,10 @@
 
 
 // Center a single element using flexbox
-@mixin center-single-flex {
+@mixin center-flex($align) {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: $align;
 }
 
 
