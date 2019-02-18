@@ -1,3 +1,3 @@
 <footer>
-	<p>Distrito 13 &copy; copyright 2018 - 2018</p>
+	<p>Distrito 13 &copy; copyright 2018 - <?php echo date('Y') ?></p>
 </footer>

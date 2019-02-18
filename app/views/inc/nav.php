@@ -7,7 +7,7 @@
                 <div class="links">
                     <a href="?view=home">Inicio</a>
                     <a href="?view=webchat">WebChat</a>
-                    <a href="?view=rules">Rules</a>
+                    <a href="?view=rules">Reglas</a>
                 </div>
             </div>
         </nav>
