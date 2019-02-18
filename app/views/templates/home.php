@@ -48,16 +48,32 @@
         <div class="connect">
             <div class="content">
                 <h2>¿Como puedo conectarme?</h2>
-                <p>Para conectarse en nuestro canal solo debes darle al boton copiar y pegar en nuestro cliente irc, o atravez de nuestro <a href="webchat.html">Webchat</a>!</p>
+                <p>Para conectarse en nuestro canal solo debes darle al boton copiar y pegar en nuestro cliente irc, o atravez de nuestro <a href="?view=webchat">Webchat</a>!</p>
 
                 <span class="connect_command">
                     <p class="code">/join ##D.13</p>
-                    <p title="Copiar al clipboard" class="copy_icon"></p>
+                    <p id="copy_btn" title="Copiar al clipboard" class="copy_icon"></p>
                 </span>
             </div>
         </div>
     </main>
 
     <?php include INC_DIR . 'footer.php' ?>
+    <script>
+        let btn = document.getElementById('copy_btn');
+
+        btn.addEventListener('click', e => {
+            // Code to make a copy to clipboard
+            let textarea = document.createElement('textarea');
+            textarea.setAttribute('readonly', '');
+            textarea.style.position = 'absolute';
+            textarea.style.left = '-9999px';
+            textarea.value = '/join ##D.13';
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+        });
+    </script>
     </body>
 </html>
