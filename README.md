@@ -52,6 +52,8 @@ Por lo tanto, para entrar a Distrito 13 `##D.13` solo debes de escribir `/join #
 ![Bienvenido a ##D.13]( "Bienvenido a ##D.13")
 
 ## Screenshots de la pagina
-![Home de la pagina]( "Home de la pagina")
-![Webchat de la pagina]( "Webchat de la pagina")
-![Reglas de la pagina]( "Reglas de la pagina")
+![Home de la pagina](https://github.com/GamertodArk/distrito-13-website/blob/first-update/project-screenshots/Screenshot-1.png "Home de la pagina")
+
+![Webchat de la pagina](https://github.com/GamertodArk/distrito-13-website/blob/first-update/project-screenshots/Screenshot-2.png "Webchat de la pagina")
+
+![Reglas de la pagina](https://github.com/GamertodArk/distrito-13-website/blob/first-update/project-screenshots/Screenshot-3.png "Reglas de la pagina")
