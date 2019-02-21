@@ -1,6 +1,5 @@
 # Distrito 13 website
 
-<!-- This is the code of the IRC channel ##D.13. Me and the other members of the channel use this repository to work on the webpage -->
 Distrito 13 (##D.13) es un canal de chat IRC en freenode compuesto por su gran mayoria por personas de habla hispana, con fundadores Venezolanos el canal cuenta con miembros de paises como Mexico, Chile, Argentina, Estados Unidos y unos cuantos otros.
 
 El canal esta alojado en el servidor freenode, freenode es el servidor de chats IRC mar grande en todo el mundo actualmente, gracias a esto el canal esta en su gran mayoria del tiempo muy activo, lo que proporciona entretenimiento a la gran mayoria de sus usuarios.
