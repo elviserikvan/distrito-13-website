@@ -22,21 +22,21 @@ Y eso deberia de instalarte la ultima version de hexchat para tu distribuición 
 
 La primera vez que abres hexchat aparecera una pequeña ventana con la lista de los servidores que ya tiene registrados y unos campos para que coloques tu usuario, por lo general solo pedirian uno, pero hexchat pide varios porque si alguien ya tiene el mismo usuario que tu, usará el siguiente en la lista.
 
-![Ventana inicial](https://github.com/GamertodArk/distrito-13-website/blob/first-update/project-screenshots/hexchat-tutotial/network-list.png "Ventana inicial")
+![Ventana inicial](https://github.com/GamertodArk/distrito-13-website/blob/master/project-screenshots/hexchat-tutotial/network-list.png "Ventana inicial")
 
 Coloca los usuarios que mas te gusten y asegurate que en la seccion de `networks` o `servidores` este selecionada la opcion `freenode` y da click en `conectar`.
 
 Una vez que le das click se abrira la ventana del chat y seguida de esa otra ventana para entrar en un canal directamente, a pesar de que podriamos hacerlo en este ventana, prefiero mostrarte como seria utilizando un comando especial para este propocito, por los momentos simplemente vamos a cerrar este ventana. La ventana es esta:
 
-![Ventana para entrar a un canal](https://github.com/GamertodArk/distrito-13-website/blob/first-update/project-screenshots/hexchat-tutotial/join-a-channel.png "Ventana para entrar a un canal")
+![Ventana para entrar a un canal](https://github.com/GamertodArk/distrito-13-website/blob/master/project-screenshots/hexchat-tutotial/join-a-channel.png "Ventana para entrar a un canal")
 
 Una vez cerrada, deberias de ver otra ventada parecida a esta
 
-![Sala de espera de freenode](https://github.com/GamertodArk/distrito-13-website/blob/first-update/project-screenshots/hexchat-tutotial/freenode-standBy-room.png "Sala de espera de freenode")
+![Sala de espera de freenode](https://github.com/GamertodArk/distrito-13-website/blob/master/project-screenshots/hexchat-tutotial/freenode-standBy-room.png "Sala de espera de freenode")
 
 Actualmente no estas en ningun canal de chat, podemos considerar lo que estas viendo como una sala de espera para que entres a uno de los miles de canales que tiene freenode, si quieres ver todos los canales que tiene, en esa misma ventana ve a `server > channel list` y da click en el boton `search`.
 
-![Lista de canales](https://github.com/GamertodArk/distrito-13-website/blob/first-update/project-screenshots/hexchat-tutotial/channel-list.png "Lista de canales")
+![Lista de canales](https://github.com/GamertodArk/distrito-13-website/blob/master/project-screenshots/hexchat-tutotial/channel-list.png "Lista de canales")
 
 Freenode tiene sientos de canales de chat para todo, anime, videojuegos, programación y mucho mas, `##D.13` es un canal sin ningun tema en espesifico, puedes entrar ahi y hablar de lo que sea con los demas usuarios.
 
@@ -48,11 +48,11 @@ Para entrar a cualquier canal desde esta sala usaremos el comando `join`, el com
 
 Por lo tanto, para entrar a Distrito 13 `##D.13` solo debes de escribir `/join ##D.13` y enviarlo, en lo que lo envies automaticamente hexchat abrira una nueva pestaña y estaras dentro del canal. Bienvenido a Distrito 13!, ahora solo habla con los demas usuarios sobre temas de tu interes y disfruta de tu experiencia en los canales IRC.
 
-![Bienvenido a ##D.13](https://github.com/GamertodArk/distrito-13-website/blob/first-update/project-screenshots/hexchat-tutotial/d.13-room.png "Bienvenido a ##D.13")
+![Bienvenido a ##D.13](https://github.com/GamertodArk/distrito-13-website/blob/master/project-screenshots/hexchat-tutotial/d.13-room.png "Bienvenido a ##D.13")
 
 ## Screenshots de la pagina
-![Home de la pagina](https://github.com/GamertodArk/distrito-13-website/blob/first-update/project-screenshots/Screenshot-1.png "Home de la pagina")
+![Home de la pagina](https://github.com/GamertodArk/distrito-13-website/blob/master/project-screenshots/Screenshot-1.png "Home de la pagina")
 
-![Webchat de la pagina](https://github.com/GamertodArk/distrito-13-website/blob/first-update/project-screenshots/Screenshot-2.png "Webchat de la pagina")
+![Webchat de la pagina](https://github.com/GamertodArk/distrito-13-website/blob/master/project-screenshots/Screenshot-2.png "Webchat de la pagina")
 
-![Reglas de la pagina](https://github.com/GamertodArk/distrito-13-website/blob/first-update/project-screenshots/Screenshot-3.png "Reglas de la pagina")
+![Reglas de la pagina](https://github.com/GamertodArk/distrito-13-website/blob/master/project-screenshots/Screenshot-3.png "Reglas de la pagina")
